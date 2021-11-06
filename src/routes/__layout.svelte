@@ -5,7 +5,16 @@
 </script>
 
 <Nav />
+<main>
 
-<slot />
+    <slot />
+
+</main>
 
 <Footer />
+
+<style lang="scss">
+    main {
+        height: 100vh;
+    }
+</style>
